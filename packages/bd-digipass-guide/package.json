@@ -1,0 +1,11 @@
+{
+  "name": "@delen/bd-digipass-guide",
+  "version": "0.2.22",
+  "description": "Front-end for Private Bank Delen",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "@delen/bd-style-config": "1.6.3"
+  }
+}

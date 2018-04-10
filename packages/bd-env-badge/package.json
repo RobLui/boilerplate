@@ -1,0 +1,14 @@
+{
+  "name": "@delen/bd-env-badge",
+  "version": "0.1.0",
+  "description": "bd-env-badge component",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "@delen/bd-style-config": "1.6.3"
+  },
+  "peerDependencies": {
+    "@delen/bd-style-config": "^1.6.2"
+  }
+}

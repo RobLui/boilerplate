@@ -1,0 +1,8 @@
+{
+  "name": "@delen/bd-loader",
+  "version": "2.0.0",
+  "description": "Front-end for Private Bank Delen",
+  "directories": {
+    "doc": "doc"
+  }
+}

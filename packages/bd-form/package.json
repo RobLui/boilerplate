@@ -1,0 +1,19 @@
+{
+  "name": "@delen/bd-form",
+  "version": "2.0.3",
+  "description": "Front-end for Private Bank Delen",
+  "main": "./dst/index.js",
+  "metadata": "./dst/index.metadata.json",
+  "typings": "./dst/index.d.ts",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "@delen/bd-style-config": "1.6.3",
+    "@delen/bd-utilities": "2.1.1"
+  },
+  "peerDependencies": {
+    "@angular/forms": "^5.2.8",
+    "@delen/bd-utilities": "^1.0.2"
+  }
+}

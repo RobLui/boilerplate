@@ -1,0 +1,21 @@
+{
+  "name": "@delen/bd-scroll",
+  "version": "4.0.2",
+  "description": "Front-end for Private Bank Delen",
+  "main": "./dst/index.js",
+  "metadata": "./dst/index.metadata.json",
+  "typings": "./dst/index.d.ts",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "@delen/bd-utilities": "2.1.1",
+    "@delen/bd-view": "4.0.4"
+  },
+  "peerDependencies": {
+    "@angular/core": "^5.2.8",
+    "@delen/bd-utilities": "^1.0.2",
+    "@delen/bd-view": "^2.9.0",
+    "rxjs": "^5.0.1"
+  }
+}

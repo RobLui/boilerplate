@@ -1,0 +1,15 @@
+{
+  "name": "@delen/bd-number",
+  "version": "2.0.0",
+  "description": "Attribute directives regarding displayed numbers",
+  "main": "./dst/index.js",
+  "metadata": "./dst/index.metadata.json",
+  "typings": "./dst/index.d.ts",
+  "directories": {
+    "doc": "doc"
+  },
+  "peerDependencies": {
+    "@angular/common": "^5.2.8",
+    "@angular/core": "^5.2.8"
+  }
+}

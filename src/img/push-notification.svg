@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="path-1" cx="42" cy="16" r="7"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="18" height="18">
+            <rect x="33" y="7" width="18" height="18" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="3-berichten" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="12-activeer-push-t" transform="translate(-483.000000, -285.000000)">
+            <g id="popup-copy" transform="translate(362.000000, 251.000000)">
+                <g id="push-icon" transform="translate(121.000000, 34.000000)">
+                    <path d="M0,45.0017276 C0,52.1731814 5.81952478,58 12.9982724,58 L45.0017276,58 C52.1731814,58 58,52.1804752 58,45.0017276 L58,12.9982724 C58,5.82681863 52.1804752,0 45.0017276,0 L12.9982724,0 C5.82681863,0 0,5.81952478 0,12.9982724 L0,45.0017276 Z" id="Rectangle-848" fill="#FE3824"></path>
+                    <path d="M14,21.9924054 L14,21.9924054 L14,38.0075946 C14,41.3175159 16.6826374,44 19.9924054,44 L36.0075946,44 C39.3175159,44 42,41.3173626 42,38.0075946 L42,21.9924054 C42,18.6824841 39.3173626,16 36.0075946,16 L19.9924054,16 C16.6824841,16 14,18.6826374 14,21.9924054 L14,21.9924054 Z M12,21.9924054 C12,17.5783218 15.5776607,14 19.9924054,14 L36.0075946,14 C40.4216782,14 44,17.5776607 44,21.9924054 L44,38.0075946 C44,42.4216782 40.4223393,46 36.0075946,46 L19.9924054,46 C15.5783218,46 12,42.4223393 12,38.0075946 L12,21.9924054 L12,21.9924054 Z" id="Shape" fill="#FFFFFF"></path>
+                    <g id="Oval-346">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use stroke="#FE3824" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

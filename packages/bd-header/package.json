@@ -1,0 +1,11 @@
+{
+  "name": "@delen/bd-header",
+  "version": "1.4.9",
+  "description": "bd-header component",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "@delen/bd-style-config": "1.6.3"
+  }
+}

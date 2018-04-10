@@ -1,0 +1,11 @@
+{
+  "name": "@delen/bd-style",
+  "version": "2.1.1",
+  "description": "Front-end for Private Bank Delen",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "normalize.css": "^5.0.0"
+  }
+}

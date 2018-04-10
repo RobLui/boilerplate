@@ -1,0 +1,22 @@
+{
+  "name": "@delen/bd-backdrop",
+  "version": "4.0.6",
+  "description": "Front-end for Private Bank Delen",
+  "main": "./dst/index.js",
+  "metadata": "./dst/index.metadata.json",
+  "typings": "./dst/index.d.ts",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "@delen/bd-overlay-placeholder": "3.0.2",
+    "@delen/bd-scroll": "4.0.2",
+    "@delen/bd-utilities": "2.1.1"
+  },
+  "peerDependencies": {
+    "@angular/core": "^5.2.8",
+    "@delen/bd-overlay-placeholder": "^2.0.0",
+    "@delen/bd-scroll": "^3.0.0",
+    "@delen/bd-utilities": "^2.0.0"
+  }
+}

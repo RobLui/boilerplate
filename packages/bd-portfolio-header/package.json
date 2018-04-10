@@ -1,0 +1,23 @@
+{
+  "name": "@delen/bd-portfolio-header",
+  "version": "3.0.6",
+  "description": "Front-end for Private Bank Delen",
+  "main": "./dst/index.js",
+  "metadata": "./dst/index.metadata.json",
+  "typings": "./dst/index.d.ts",
+  "directories": {
+    "doc": "doc"
+  },
+  "peerDependencies": {
+    "@angular/common": "^5.2.8",
+    "@angular/core": "^5.2.8",
+    "@delen/bd-number": "^0.2.1",
+    "@delen/bd-scroll": "^3.0.0",
+    "@delen/bd-utilities": "^1.0.2"
+  },
+  "devDependencies": {
+    "@delen/bd-number": "2.0.0",
+    "@delen/bd-scroll": "4.0.2",
+    "@delen/bd-utilities": "2.1.1"
+  }
+}

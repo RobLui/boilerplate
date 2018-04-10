@@ -1,0 +1,11 @@
+{
+  "name": "@delen/bd-contact",
+  "version": "0.1.5",
+  "description": "New contact element",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "@delen/bd-style-config": "1.0.3"
+  }
+}

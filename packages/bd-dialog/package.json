@@ -1,0 +1,23 @@
+{
+  "name": "@delen/bd-dialog",
+  "version": "7.1.3",
+  "description": "dialog",
+  "main": "./dst/index.js",
+  "metadata": "./dst/index.metadata.json",
+  "typings": "./dst/index.d.ts",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "@delen/bd-backdrop": "4.0.6",
+    "@delen/bd-overlay-placeholder": "3.0.2",
+    "@delen/bd-utilities": "2.1.1"
+  },
+  "peerDependencies": {
+    "@angular/common": "^5.2.8",
+    "@angular/core": "^5.2.8",
+    "@delen/bd-backdrop": "^4.0.0",
+    "@delen/bd-overlay-placeholder": "^1.0.0",
+    "@delen/bd-utilities": "^1.0.2"
+  }
+}

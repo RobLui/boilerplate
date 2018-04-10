@@ -1,0 +1,11 @@
+{
+  "name": "@delen/bd-messaging",
+  "version": "0.3.6",
+  "description": "bd-messaging component",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "@delen/bd-style-config": "1.0.3"
+  }
+}

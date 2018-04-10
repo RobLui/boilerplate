@@ -1,0 +1,18 @@
+{
+  "name": "@delen/bd-menu",
+  "version": "3.0.1",
+  "description": "Front-end for Private Bank Delen",
+  "main": "./dst/index.js",
+  "metadata": "./dst/index.metadata.json",
+  "typings": "./dst/index.d.ts",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "@delen/bd-style-config": "1.6.3"
+  },
+  "peerDependencies": {
+    "@angular/common": "^5.2.8",
+    "@angular/core": "^5.2.8"
+  }
+}

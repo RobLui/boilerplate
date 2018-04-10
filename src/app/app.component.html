@@ -1,0 +1,60 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+</div>
+<h2>Here are some links to help you start: </h2>
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+  </li>
+</ul>
+<h1>Elements</h1>
+
+<!-- Text -->
+<section>
+  <h2>Text</h2>
+  <p>This is
+    <b>bold</b> and this is
+    <strong>strong</strong>. This is
+    <i>italic</i> and this is
+    <em>emphasized</em>. This is
+    <sup>superscript</sup> text and this is
+    <sub>subscript</sub> text. This is
+    <u>underlined</u> and this is code:
+    <code>for (;;) { ... }</code>. Finally,
+    <a href="#">this is a link</a>.</p>
+  <hr />
+  <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+  <hr />
+  <h1>Heading Level 1</h1>
+  <h2>Heading Level 2</h2>
+  <h3>Heading Level 3</h3>
+  <h4>Heading Level 4</h4>
+  <hr />
+  <h3>Blockquote</h3>
+  <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+</section>
+
+<bd-action-slider-list2>
+  <bd-action-slider2 *ngFor="let content of dummyData">
+      <bd-action-slider-content2>
+          <div class="demo-test-div">{{content}}</div>
+      </bd-action-slider-content2>
+      <bd-action-slider-right2 (action)="rightAction()" [slideThrough]="true" colorClass="u-background-color--blue" class="u-color--white">
+          <div>
+              <i class="icon-inbox"></i>
+              ACTION
+          </div>
+      </bd-action-slider-right2>
+  </bd-action-slider2>
+</bd-action-slider-list2>
+

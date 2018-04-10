@@ -1,0 +1,11 @@
+{
+  "name": "@delen/bd-data-states",
+  "version": "0.2.10",
+  "description": "Several states regarding data",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "@delen/bd-style-config": "1.6.3"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@delen/bd-line-chart",
+  "version": "2.0.5",
+  "description": "Front-end for Private Bank Delen",
+  "main": "./dst/index.js",
+  "metadata": "./dst/index.metadata.json",
+  "typings": "./dst/index.d.ts",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {
+    "@delen/bd-chart-core": "2.0.3",
+    "@delen/bd-style-config": "1.6.3",
+    "@delen/bd-utilities": "2.1.1",
+    "@types/d3": "^4.12.0",
+    "d3": "^4.3.0",
+    "d3-axis": "^1.0.3",
+    "d3-ease": "^1.0.1",
+    "d3-format": "^1.0.2",
+    "d3-scale": "^1.0.3",
+    "d3-selection": "^1.0.2",
+    "d3-shape": "^1.0.3",
+    "d3-time-format": "^2.0.2",
+    "d3-transition": "^1.0.3"
+  },
+  "peerDependencies": {
+    "@angular/common": "^5.2.8",
+    "@angular/core": "^5.2.8",
+    "@delen/bd-chart-core": "^0.1.0",
+    "@delen/bd-utilities": "^1.0.2",
+    "d3": "^4.3.0",
+    "d3-axis": "^1.0.3",
+    "d3-ease": "^1.0.1",
+    "d3-format": "^1.0.2",
+    "d3-scale": "^1.0.3",
+    "d3-selection": "^1.0.2",
+    "d3-shape": "^1.0.3",
+    "d3-time-format": "^2.0.2",
+    "d3-transition": "^1.0.3",
+    "rxjs": "^5.0.1"
+  }
+}

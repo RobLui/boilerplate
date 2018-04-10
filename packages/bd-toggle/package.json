@@ -1,0 +1,15 @@
+{
+  "name": "@delen/bd-toggle",
+  "version": "4.0.0",
+  "description": "bd-toggle",
+  "main": "./dst/index.js",
+  "metadata": "./dst/index.metadata.json",
+  "typings": "./dst/index.d.ts",
+  "directories": {
+    "doc": "doc"
+  },
+  "peerDependencies": {
+    "@angular/common": "^5.2.8",
+    "@angular/core": "^5.2.8"
+  }
+}

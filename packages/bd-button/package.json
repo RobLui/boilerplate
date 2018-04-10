@@ -1,0 +1,8 @@
+{
+  "name": "@delen/bd-button",
+  "version": "2.1.5",
+  "description": "Front-end for Private Bank Delen",
+  "directories": {
+    "doc": "doc"
+  }
+}
