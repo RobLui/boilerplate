@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
     title = 'app';
 
-    dummyData: string[] = ['dynamic CONTENT', 'dynamic CONTENT', 'dynamic CONTENT', 'dynamic CONTENT'];
+    dummyData = ['dynamic CONTENT', 'dynamic CONTENT', 'dynamic CONTENT', 'dynamic CONTENT'];
 
     leftAction(): void {
         console.log('left');

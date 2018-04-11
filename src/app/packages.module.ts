@@ -16,12 +16,10 @@ import { BdDialogModule } from '@delen/bd-dialog';
 import { BdFormModule } from '@delen/bd-form';
 import { BdInfiniteScrollModule } from '@delen/bd-infinite-scroll';
 import { BdKeypadModule } from '@delen/bd-keypad';
-import { BdLineChartModule } from '@delen/bd-line-chart';
 import { BdMenuModule } from '@delen/bd-menu';
 import { BdNumberModule } from '@delen/bd-number';
 import { BdOverlayPlaceholderModule } from '@delen/bd-overlay-placeholder';
 import { BdPanelSliderModule } from '@delen/bd-panel-slider';
-import { BdPieChartModule } from '@delen/bd-pie-chart';
 import { BdPincodeModule } from '@delen/bd-pincode';
 import { BdPopupModule } from '@delen/bd-popup';
 import { BdPortfolioHeaderModule } from '@delen/bd-portfolio-header';
@@ -36,9 +34,7 @@ import { BdTileModule } from '@delen/bd-tile';
 import { BdToastModule } from '@delen/bd-toast';
 import { BdToggleModule } from '@delen/bd-toggle';
 import { BdUtilitiesModule } from '@delen/bd-utilities';
-import { BdVerticalBarChartModule } from '@delen/bd-vertical-bar-chart';
 import { BdViewModule } from '@delen/bd-view';
-import { BdWorldModule } from '@delen/bd-world';
 
 @NgModule({
     exports: [
@@ -52,12 +48,10 @@ import { BdWorldModule } from '@delen/bd-world';
         BdFormModule,
         BdInfiniteScrollModule,
         BdKeypadModule,
-        BdLineChartModule,
         BdMenuModule,
         BdNumberModule,
         BdOverlayPlaceholderModule,
         BdPanelSliderModule,
-        BdPieChartModule,
         BdPincodeModule,
         BdPopupModule,
         BdPortfolioHeaderModule,
@@ -72,9 +66,7 @@ import { BdWorldModule } from '@delen/bd-world';
         BdToastModule,
         BdToggleModule,
         BdUtilitiesModule,
-        BdVerticalBarChartModule,
-        BdViewModule,
-        BdWorldModule
+        BdViewModule
     ]
 })
 export class BdPackagesModule {
